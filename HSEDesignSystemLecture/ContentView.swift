@@ -12,15 +12,18 @@ struct ContentView: View {
     var body: some View {
         VStack {
             // Task1
-            SelectionTabsOfMoodView(models: Tabs.mockTabsModel, selectedIndex: $selectedIndex)
+//            SelectionTabsOfMoodView(models: Tabs.mockTabsModel, selectedIndex: $selectedIndex)
             
             // Task2
-            SelectionTabsOfMoodView(models: Tabs.mockTabsModel, colored: true, selectedIndex: $selectedIndex)
+//            SelectionTabsOfMoodView(models: Tabs.mockTabsModel, colored: true, selectedIndex: $selectedIndex)
             
             // Task2
 //            SoftUITogglesExample()
+            
+            // Task3
+            Neuromorphism()
         }
-        .padding()
+        .edgesIgnoringSafeArea(.all)
     }
 }
 

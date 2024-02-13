@@ -16,6 +16,7 @@
 		31F42FEF2B7BAE60005392EB /* SoftInnerShadowViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F42FEE2B7BAE60005392EB /* SoftInnerShadowViewModifier.swift */; };
 		31F42FF12B7BAE7F005392EB /* SoftOuterShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F42FF02B7BAE7F005392EB /* SoftOuterShadow.swift */; };
 		31F42FF32B7BAF12005392EB /* View+InverseMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F42FF22B7BAF12005392EB /* View+InverseMask.swift */; };
+		31F42FF62B7BC076005392EB /* Neuromorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F42FF52B7BC076005392EB /* Neuromorphism.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		31F42FEE2B7BAE60005392EB /* SoftInnerShadowViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftInnerShadowViewModifier.swift; sourceTree = "<group>"; };
 		31F42FF02B7BAE7F005392EB /* SoftOuterShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftOuterShadow.swift; sourceTree = "<group>"; };
 		31F42FF22B7BAF12005392EB /* View+InverseMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+InverseMask.swift"; sourceTree = "<group>"; };
+		31F42FF52B7BC076005392EB /* Neuromorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuromorphism.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				31955D7E2B7BA1AD0076E9BF /* ContentView.swift */,
 				31955D8D2B7BA9B70076E9BF /* Task1AboutAnamatedTabs */,
 				31F42FE92B7BAB48005392EB /* Task2Component */,
+				31F42FF42B7BC03A005392EB /* Task3Neuromorphism */,
 				31955D802B7BA1AE0076E9BF /* Assets.xcassets */,
 				31955D822B7BA1AE0076E9BF /* HSEDesignSystemLecture.entitlements */,
 			);
@@ -90,6 +93,14 @@
 				31F42FF22B7BAF12005392EB /* View+InverseMask.swift */,
 			);
 			path = Task2Component;
+			sourceTree = "<group>";
+		};
+		31F42FF42B7BC03A005392EB /* Task3Neuromorphism */ = {
+			isa = PBXGroup;
+			children = (
+				31F42FF52B7BC076005392EB /* Neuromorphism.swift */,
+			);
+			path = Task3Neuromorphism;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31F42FF62B7BC076005392EB /* Neuromorphism.swift in Sources */,
 				31F42FEB2B7BAC44005392EB /* SoftUITogglesExample.swift in Sources */,
 				31955D7F2B7BA1AD0076E9BF /* ContentView.swift in Sources */,
 				31955D8C2B7BA81E0076E9BF /* SelectionTabsOfMoodView.swift in Sources */,
